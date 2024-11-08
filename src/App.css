@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.project-card {
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  padding: 30px; /* Added padding */
+  background-color: #f9f9f9;
+  width: 800px; /* Set a narrower width */
+  font-size: 14px; /* Smaller text size */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-card.joined {
+  background-color: #e0f7e0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hardware-info {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 5px;
+  padding: 10px; /* Added padding */
 }
 
-.App-link {
-  color: #61dafb;
+.hardware-info p {
+  margin-right: 8px;
+  font-size: 13px; /* Smaller text size */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hardware-info input {
+  margin-right: 5px;
+  width: 50px; /* Smaller input field */
+}
+
+button {
+  font-size: 12px; /* Smaller button text */
+  padding: 5px 10px; /* Smaller button padding */
 }
